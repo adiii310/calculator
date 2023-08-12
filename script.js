@@ -20,14 +20,14 @@ let KeyboardInput = (event) => {
             display.innerHTML = "00";
         }
     } else if (value === "Enter" || value === "=") {
-        // if(text.length == 0){
-        //     display.innerHTML = "00";
-        // }
-        // text = text.toString();
-        // text = eval(text);
-        // display.innerHTML = text;
-        // text = text.toString();
-        display.innerHTML = "undefined";
+        if(text.length == 0){
+            display.innerHTML = "00";
+        }
+        text = text.toString();
+        text = eval(text);
+        display.innerHTML = text;
+        text = text.toString();
+        // display.innerHTML = "undefined";
     }
     else if (
         Number(newValue) ||
