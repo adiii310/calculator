@@ -27,7 +27,7 @@ let KeyboardInput = (event) => {
         text = eval(text);
         display.innerHTML = text;
         text = text.toString();
-        // display.innerHTML = "undefined";
+        //changing something
     }
     else if (
         Number(newValue) ||
